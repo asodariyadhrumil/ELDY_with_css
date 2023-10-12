@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Alilato ExtLt';
+    src: url('../font/Alilato-ExtraLight.woff2') format('woff2'),
+        url('../font/Alilato-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharpe PERSONAL';
+    src: url('../font/SharpePERSONAL-BlackItalic.woff2') format('woff2'),
+        url('../font/SharpePERSONAL-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharpe PERSONAL';
+    src: url('../font/SharpePERSONAL-BoldItalic.woff2') format('woff2'),
+        url('../font/SharpePERSONAL-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharpe PERSONAL';
+    src: url('../font/SharpePERSONAL-Black.woff2') format('woff2'),
+        url('../font/SharpePERSONAL-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharpe PERSONAL';
+    src: url('../font/SharpePERSONAL-Bold.woff2') format('woff2'),
+        url('../font/SharpePERSONAL-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharpe PERSONAL';
+    src: url('../font/SharpePERSONAL-Light.woff2') format('woff2'),
+        url('../font/SharpePERSONAL-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharpe PERSONAL';
+    src: url('../font/SharpePERSONAL-LightItalic.woff2') format('woff2'),
+        url('../font/SharpePERSONAL-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharpe PERSONAL';
+    src: url('../font/SharpePERSONAL-Medium.woff2') format('woff2'),
+        url('../font/SharpePERSONAL-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharpe PERSONAL';
+    src: url('../font/SharpePERSONAL-MediumItalic.woff2') format('woff2'),
+        url('../font/SharpePERSONAL-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharpe PERSONAL';
+    src: url('../font/SharpePERSONAL-Thin.woff2') format('woff2'),
+        url('../font/SharpePERSONAL-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharpe PERSONAL';
+    src: url('../font/SharpePERSONAL-ThinItalic.woff2') format('woff2'),
+        url('../font/SharpePERSONAL-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+

@@ -1,0 +1,354 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Sharpe PERSONAL';
+}
+.header-area ul li{
+    display: inline;
+    padding: 0px 32px;
+}
+ul{
+    padding-left: 0px;
+    list-style: none;
+}
+.logo img{
+ width: 60px;
+ margin:0px 30px;
+}
+.header-area{
+    position: fixed;
+    padding: 30px 0px;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hover-li{
+    position: relative;
+}
+.nav-link{
+    padding: 0px 0px 0px 0px !important;
+    font-size: 14px;
+}
+span{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+::selection{
+    background-color: darkslategray;
+    color: white;
+}
+.hover-li::before{
+ position: absolute;
+ content: "";
+ right: 0;
+ bottom: 0;
+ border-bottom: 1px solid black;
+ width: 0%;
+ height: 0%;
+ transition: 0.5s ease-out;
+ line-height: 1.2;
+}
+.hover-li:hover::before{
+    width: 100%;
+    height:100%;
+    left: 0;
+}
+.social-icons i{
+    font-size: 20px;
+    padding :0px 10px;
+    transition: 0.5s ease-out;
+}
+.btn{
+ padding:9px 50px;
+ letter-spacing: 1px;  
+ font-size: 16px; 
+ margin-left: 20px;
+ transition: 0.5s ease-out;
+}
+.social-icons i:hover{
+ transform: translateY(-3px);
+}
+/*================================= hero-benner ================================*/
+.carousel-inner{
+    height: 650px;
+}
+.carousel-item img{
+    height: 650px;
+}
+.main-title h1{
+    font-size: 45px;
+}
+.main-text{
+    padding: 50px 0px;
+}
+.main-cap p{
+    font-size: 14px;
+}
+p{
+    font-family: 'Alilato ExtLt';  
+}
+.shop-btn .btn{
+    padding: 15px 60px;
+    margin: 0px;
+    border-radius: 0px;
+    font-size: 13px;
+    background-color: black;
+    color: white;
+}
+ .btn a{
+font-size: 19px;
+ }
+.shop-btn .btn:hover{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+} 
+/*=================================== beauty-area===============================*/
+.beauty-img img{
+ height: 500px;
+ width: 100%;
+ transition: 0.5s ease-out;
+}
+.beauty-img {
+ overflow: hidden;
+}
+.beauty-img img:hover{
+       transform: scale(1.05);
+}
+.right-arrow img{
+    width: 40px;
+    height: 24px;
+}
+.beauty-cap a{
+    font-size: 14px;
+}
+/*======================================== top-rating ===============================*/
+.top-rating{
+    padding: 100px 0px;
+}
+.top-rating-nav{
+    font-family: 'Sharpe PERSONAL';
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.top-rating-nav ul li hr{
+    margin: 0px;
+}
+.colection-cap{
+    font-family: 'Alilato ExtLt';
+}
+.best-colection p{
+    font-size: 14px;
+}
+.shop-btn .btn:hover {
+    background-color: white;
+}
+.best-colection h2{
+    line-height: 50px;
+}
+.product-img img{
+    width: 100%;
+    position: relative;
+}
+.product-img img:nth-child(2){
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: -1;
+    opacity: 0;
+    transition: 1s ease-out;
+}
+.bg-secondary{
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    z-index: 0;
+    transition: 1s ease-out;
+}
+.buy-icon i{
+    position: absolute;
+    bottom: 0%;
+    left: 49%;
+    opacity: 0;
+    z-index: -1;
+    transition: 0.3s ease-out;
+    background-color: white;
+    padding: 15px 20px;
+    font-size: 22px;
+    margin-left: 10px;
+}
+.buy-icon i:nth-child(1){
+    left: 32%;
+    bottom: 4%;
+}
+.product-img:hover .buy-icon i:nth-child(1){
+    opacity: 1;
+    z-index: 0;
+    bottom: 2%;
+}
+.product-img:hover .buy-icon i{
+    opacity: 1;
+    z-index: 0;
+    bottom: 2%;
+   }
+.product-img:hover img:nth-child(2){
+ opacity: 1;
+ z-index: 0;
+}
+.product-img{
+    position: relative;
+}
+.product-cap a{
+    font-family: 'Alilato ExtLt';
+    font-size: 15px;
+    line-height: 50px;
+}
+.product-cap span{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+.hot-item{
+    position: absolute;
+    top: 0;
+    font-size: 13px;
+    font-family: 'Alilato ExtLt';
+    padding: 3px 10px;
+}
+.hot-item:nth-child(3){
+    top: 10%;
+}
+/*=================================== online ====================================*/
+.online{
+    padding-top: 70px;
+}
+.online-img{
+    overflow: hidden;
+    width: 100%;
+}
+.online-img img{
+    width: 100%;
+    transition: 0.5s ease-out;
+    overflow: hidden;
+}
+.online-img:hover img{
+ transform: translateX(5px);
+}
+.online-cap{
+    padding-left: 80px;
+}
+.online-cap h6{
+    font-size: 17px;
+}
+.online-cap h2{
+    font-size: 40px;
+    font-family: 'Sharpe PERSONAL';
+}
+.online-cap p{
+    font-size: 14px;
+}
+/*==================================== shake-effect=============================== */
+.shake-effect{
+    padding: 25px 0px;
+}
+.brand-img img{
+ width: 70%;
+}
+.brand-img img:hover{
+ animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;  
+}
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+    
+    30%, 50%, 70% {
+      transform: translate3d(-2px, 0, 0);
+    }
+    40%, 60% {
+      transform: translate3d(2px, 0, 0);
+  }
+}
+/*================================= earings=======================================*/
+.card{
+    transition: 3s ease-in-out;
+    overflow: hidden;
+    width: 100%;
+    background-color: #e9e8e4;
+}
+.card:hover img{
+ transform: translatex(3px);
+}
+.card:hover .card-body{
+    opacity: 1;
+}
+.card-body{ 
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+.NEWSLETTER{
+    padding: 100px 0px;
+}
+.NEWSLETTER .Sign-up-cap{
+    font-size: 14px;
+}
+.subscribe-area .sub-inuput input{
+    width: 100%;
+    background-color: transparent;
+    font-size: 15px;
+    border: 0px;
+    color: white;
+    border-bottom:1px solid hsla(0,0%,100%,.4);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sub-btn .btn{
+        border: 1px solid hsla(0,0%,100%,.4);
+        padding: 17px 0px;
+        margin: 0px;
+        border-radius: 0px;
+        font-size: 13px;
+        background-color: black;
+        color: white;
+        width: 100%;
+}
+/*==================================== footer-area =================================*/
+.footer-area{
+    padding: 60px 0px;
+}
+.foot-text{
+ font-size: 14px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.copy-text{
+    font-size: 14px;
+}
+.copy-text i{
+    font-size: 14px;
+}
+/* ========================================shop =================================*/
+.header-top{
+    padding: 10px 0px;
+}
+.phone{
+    font-size: 14px;
+}
+.phone .phone-icon i{
+ font-size: 14px;
+}
